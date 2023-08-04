@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Condition Checking</h1>
+
+    <script type="module">
+        let temp = 40;
+        // let feels=""
+
+        // let feels = (temp > 29) ? "Hot" : "Normal"
+        let feels = 
+            (temp > 29) ? "Hot" : 
+                (temp > 20) ? "Normal" : 
+                    (temp > 0) ? "Cold" : "Deadly"
+
+        // if( temp > 29 ) {
+        //     console.log("weather is Hot");
+        //     feels = "hot"
+        // }        
+        // else {
+        //     console.log("weather is Normal");
+        //     feels = "normal"
+        // }
+
+        // console.log(`that's a` + temp +`"sentence"`);
+        // console.log(`that is a ${ temp + 34} sentence`);
+        // console.log(`its currently cloudy and 32 degrees. weather is ${}`)
+        console.log(`weather is ${feels }`);
+    </script>
+
+</body>
+
+</html>

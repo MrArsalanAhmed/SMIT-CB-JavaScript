@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+    <h1> Operators </h1>
+    <script type="module">
+        let userAge = 5;
+
+        // userAge = userAge + 1;
+        // userAge++; //post increment
+        // userAge--; //post decrement
+        // ++userAge; //pre increment
+        --userAge; //pre decrement
+
+        // console.log("userAge:", userAge++); //5
+        // console.log("userAge:", userAge); //6 
+
+        // operator precedence js (google search)
+        // operators with higher precednce will be solved first
+        // = is an assignment operator with precedence 2 and will be executed in the last
+        // binary operators and unary operators
+        // binary operators needs two operands(values)to be executed
+        // 'l.h.s operand'  operator 'r.h.s operand' 
+        // unary operators need only one operand 
+        // ++ and -- are examples of unary operators
+        
+        let a = 5;
+        let b = 4;
+        let result = a++ + b++ + ++b + ++a;
+                  //  5  +   4   + 6  + 7 (ans 22)
+                  // result variable will have a value of 22 //this is a math expression
+
+        console.log("result: ", result);
+        
+
+    </script>
+</body>
+</html>
